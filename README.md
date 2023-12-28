@@ -21,3 +21,7 @@ g++ serial.cpp shared.cpp -o serial
 mpic++ parallel.cpp shared.cpp -o parallel
 
 mpiexec -n 2 ./parallel N
+
+## Calculate parallel speedup:
+
+./calculate_parallel_speedup.sh N

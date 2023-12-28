@@ -214,7 +214,7 @@ int main(int argc, char *argv[])
 
 		elapsedTime = (end.tv_sec - start.tv_sec) * 1000.0;
 		elapsedTime += (end.tv_usec - start.tv_usec) / 1000.0;
-		cout << "Time: " << elapsedTime << " ms." << endl
+		cout << elapsedTime << endl
 				 << endl;
 
 		ofstream Af;
